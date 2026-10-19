@@ -1,0 +1,9 @@
+{
+  "_README": "Doist's own hosted Todoist MCP server, declared so enabling this plugin brings its connector along. It carries no secret: auth is an interactive OAuth flow per device, so this file commits verbatim. After enabling the plugin, run /mcp once and authorise todoist in the browser; until then the server is listed but its tools do not resolve. The claude.ai / Claude Desktop Todoist connector exposes the same tools and works too. Do not swap in a community Todoist MCP server: the skills call Doist's tool names (get-overview, find-projects, fetch-object, add-tasks, find-tasks, update-tasks) and other servers expose different ones. See references/todoist-connector-notes.md.",
+  "mcpServers": {
+    "todoist": {
+      "type": "http",
+      "url": "https://ai.todoist.net/mcp"
+    }
+  }
+}
