@@ -1,6 +1,6 @@
 {
   "name": "todoist",
-  "description": "Todoist workflow skills for agents: capture well-formed tasks, triage the Inbox, walk the overdue pile, prune stale ideas, reconcile the board against memory, review the project tree, and tackle tasks - all against the user's own conventions, with a generic default.",
+  "description": "Todoist workflow skills for agents: capture well-formed tasks, triage the Inbox, walk the overdue pile, prune stale ideas, reconcile the board against memory, and review the project tree - all against the user's own conventions, with a generic default.",
   "author": {
     "name": "rschlek",
     "url": "https://github.com/rschlek"

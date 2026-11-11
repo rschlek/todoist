@@ -2,10 +2,9 @@
 
 Todoist workflow skills for Claude Code and Codex: capture well-formed tasks,
 triage the Inbox, walk the overdue pile, prune stale ideas, reconcile the board
-against what actually happened, review the shape of the project tree, and
-tackle tasks. Every skill works against **your** conventions for how your board
-is organized, and falls back to a sensible shipped default until you write your
-own.
+against what actually happened, and review the shape of the project tree. Every
+skill works against **your** conventions for how your board is organized, and
+falls back to a sensible shipped default until you write your own.
 
 ## Skills
 
@@ -21,10 +20,11 @@ Each skill's directory name is its invocation name (`todoist:add`, ...).
   decide the findings in small rounds.
 - `structural-review` - audit the project and section tree and its
   descriptions against your conventions.
-- `tackle` - help do an existing task and close it out honestly, or pick one
-  worth doing now.
 - `full-review` - triage, prune, reconcile, and structural review in one
   sitting.
+
+Doing a task is outside this plugin; a tracker-agnostic `tackle` skill ships in
+the [playbook](https://github.com/rschlek/playbook) plugin.
 
 Nothing is written to Todoist without your approval; dates, deletions, and
 structure changes are always proposed first.

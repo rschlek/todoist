@@ -1,6 +1,6 @@
 project: todoist
 title: Todoist
-summary: "A Claude Code and Codex plugin of Todoist workflow skills (add, triage, prune, tackle, reconcile, structural and full review) for anyone who wants agents to keep a Todoist board well-formed, using the user's own conventions or a shipped default."
+summary: "A Claude Code and Codex plugin of Todoist workflow skills (add, triage, prune, reconcile, structural and full review) for anyone who wants agents to keep a Todoist board well-formed, using the user's own conventions or a shipped default."
 scope: personal
 visibility: public
 links:

@@ -1,6 +1,6 @@
 {
   "name": "todoist",
-  "description": "Todoist workflow skills for agents: capture well-formed tasks, triage the Inbox, walk the overdue pile, prune stale ideas, reconcile the board against memory, review the project tree, and tackle tasks - all against the user's own conventions, with a generic default.",
+  "description": "Todoist workflow skills for agents: capture well-formed tasks, triage the Inbox, walk the overdue pile, prune stale ideas, reconcile the board against memory, and review the project tree - all against the user's own conventions, with a generic default.",
   "author": {
     "name": "rschlek",
     "url": "https://github.com/rschlek"
@@ -8,8 +8,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "todoist",
-    "shortDescription": "Todoist capture, inbox triage, idea pruning, board reconcile, structural review, and tackling tasks.",
-    "longDescription": "Todoist workflow skills that share one conventions-loading rule: each run uses the user's own Todoist conventions (from a connected memory tool, else ~/.config/todoist-skills/conventions.md), falling back to a shipped generic default. add (capture one well-formed task, errand, or idea), triage (empty the Inbox, then walk the overdue pile), prune (propose ideas untouched 90+ days for deletion, recording each first), structural-review (audit the project and section tree), tackle (pick and close out a task), reconcile (audit the board against memory, then decide findings in small rounds), and full-review (run triage, prune, reconcile, and structural-review in one sitting).",
+    "shortDescription": "Todoist capture, inbox triage, idea pruning, board reconcile, and structural review.",
+    "longDescription": "Todoist workflow skills that share one conventions-loading rule: each run uses the user's own Todoist conventions (from a connected memory tool, else ~/.config/todoist-skills/conventions.md), falling back to a shipped generic default. add (capture one well-formed task, errand, or idea), triage (empty the Inbox, then walk the overdue pile), prune (propose ideas untouched 90+ days for deletion, recording each first), structural-review (audit the project and section tree), reconcile (audit the board against memory, then decide findings in small rounds), and full-review (run triage, prune, reconcile, and structural-review in one sitting).",
     "developerName": "rschlek",
     "category": "Productivity",
     "capabilities": [
